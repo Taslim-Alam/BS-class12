@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>class 12</title>
+  </head>
+  <body>
+    <div class="container mt-3">
+    <h2>Group button :</h2>
+    <div class="btn btn-group-vertical">
+<div class="btn-group">
+    <button class="btn btn-warning">button1</button>
+    <button class="btn btn-warning">button2</button>
+    <button class="btn btn-warning">button3</button>
+    <div class="btn-group">
+        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+    </div>
+    <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item"></a></li>
+        <li><a href="#" class="dropdown-item"></a></li>
+        <li><a href="#" class="dropdown-item"></a></li>
+    </ul>
+</div>
+</div>
+
+<br>
+    <div class="dropdown mt-3">
+        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+            <li><h5 class="dropdown-header">Dropdown header 1</h5></li>
+          <li><a class="dropdown-item" href="#">Link 1</a></li>
+          <li><a class="dropdown-item" href="#">Link 2</a></li>
+          <li><a class="dropdown-item" href="#">Link 3</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><h5 class="dropdown-header">Dropdown header 2</h5></li>
+          <li><a class="dropdown-item bg-danger" href="#">Page link</a></li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="container mt-3">
+      <h2>Collapse :</h2>
+     <button class="btn btn-success bg-primary" data-bs-toggle="collapse" data-bs- 
+             target="#text">ClickHere</button>
+    <div id="text" class="collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia, quis provident, cumque magnam reprehenderit assumenda illum quaerat nemo eveniet fugit consequatur? Ab quis minima illo et harum accusantium sed similique officia reprehenderit. Quidem vero sunt accusamus laborum quaerat. Odio?</div>
+
+     <a  class="btn btn-success" data-bs-toggle="collapse" href="#text">ClickHere</a>
+     <div id="text" class="collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia, quis provident, cumque magnam reprehenderit assumenda illum quaerat nemo eveniet fugit consequatur? Ab quis minima illo et harum accusantium sed similique officia reprehenderit. Quidem vero sunt accusamus laborum quaerat. Odio?</div>
+    </div>
+    <div class="container mt-3">
+    <a  class="btn btn-success bg-danger" data-bs-toggle="collapse" href="#text">ClickHere</a>
+    <div id="text" class="collapse show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia, quis provident, cumque magnam reprehenderit assumenda illum quaerat nemo eveniet fugit consequatur? Ab quis minima illo et harum accusantium sed similique officia reprehenderit. Quidem vero sunt accusamus laborum quaerat. Odio?</div>
+   </div>
+  </div>
+  <div class="container mt-3">
+<h2>Accordion :</h2>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header">
+      <a class="btn  bg-secondary" href="#collapse01" data-bs-toggle="collapse">Question 01</a>
+    </div>
+  </div>
+  <div id="collapse01" class="collapse" data-bs-parent="accordion">
+    <div class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ut culpa, dignissimos quibusdam laborum cumque quas sapiente tempora blanditiis molestiae assumenda impedit, distinctio atque consequuntur. Modi omnis molestiae, maiores a dignissimos est rem inventore quae quam delectus laboriosam. Exercitationem, excepturi.</div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <a class="btn  bg-info" href="#collapse02" data-bs-toggle="collapse">Question 02</a>
+  </div>
+</div>
+<div id="collapse02" class="collapse" data-bs-parent="accordion">
+  <div class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ut culpa, dignissimos quibusdam laborum cumque quas sapiente tempora blanditiis molestiae assumenda impedit, distinctio atque consequuntur. Modi omnis molestiae, maiores a dignissimos est rem inventore quae quam delectus laboriosam. Exercitationem, excepturi.</div>
+</div>
+</div>
+
+
+    </div>
+     
+
+
+
+
+     <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
